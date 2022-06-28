@@ -1,0 +1,44 @@
+body{
+    overflow-x: hidden;
+}
+
+.section1{
+    height: 95vh;
+    background-image: url('assets/bgsvg.svg');
+    background-color: #404eed;
+}
+
+.leftimg{
+    position: absolute;
+    bottom: 33px !important;
+    left: -300px !important;
+}
+
+.rightimg{
+    position: absolute;
+    bottom: 33px!important;
+    right: -300px !important;
+    clip: auto;
+}
+
+.heading1{
+    font-size: 4rem;
+    color: white;
+    font-weight: 900;
+}
+
+.para1{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 70%;
+    color: white;
+    line-height: 1.8;
+}
+
+.navbar-nav>a, .navbar-brand{
+    color: white;
+    font-weight:600;
+}
+.navbar-nav>a{
+    margin-right: 30px;
+}
