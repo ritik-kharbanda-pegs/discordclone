@@ -18,33 +18,21 @@ body{
     background-color: #404eed;
 }
 
-.imgdiv{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-}
+/* .imgdiv{
+    
+} */
 
-.leftimg{
+/* .leftimg{
     position: absolute;
     left: -25%;
     bottom: 5%;
-    display: block;
-    height: auto;
-    width: auto;
-    max-width: none;
-}
+} */
 
-.rightimg{
+/* .rightimg{
     position: absolute;
     right: -22%;
     bottom: 5%;
-    display: block;
-    height: auto;
-    width: auto;
-    max-width: none;
-}
+} */
 
 .heading1{
     font-size: 4rem;
@@ -58,4 +46,24 @@ body{
     width: 70%;
     color: white;
     line-height: 1.8;
+}
+
+/* second section */
+.second-section{
+    height: 100vh;
+}
+
+.heading2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.para2{
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+/* last section */
+.last-section{
+    height: 200vh;
 }
